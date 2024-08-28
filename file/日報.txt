@@ -1,0 +1,911 @@
+
+※毎日同じURLを利用します
+https://teams.microsoft.com/l/meetup-join/19%3ameeting_NjQxOWIyNjQtNTI5Ni00MjlmLWFhNGItMDUwYmU0MTExNzlh%40thread.v2/0?context=%7b%22Tid%22%3a%2213bce9b3-c38d-4764-b636-26955c3b5750%22%2c%22Oid%22%3a%22f0f58a1a-ff9a-4581-90f4-7a34c74a7e82%22%7d
+
+
+
+chat bot
+----------------------
+クライアントシークレットID 値
+
+app id
+
+アプリテナントID
+
+
+エンドポインと
+https://app-faqbot-mine-g0hshxgbhzcqfsan.japaneast-01.azurewebsites.net/api/messages
+
+	
+		app-faqbot-mine-g0hshxgbhzcqfsan.japaneast-01.azurewebsites.net
+
+--------------------------------------------------------------
+★	Hedra
+
+--------------------------------------------------------------
+
+【Unity, ChatGPT ,ChatBot】
+ChatGPTでチャットボット 準備編  #Unity #ChatGPT #ChatBot
+https://www.creationline.com/tech-blog/60736
+
+パピフォンと会話してみる ～ ChatGPTのはなし
+http://nagare.jp/?p=220
+
+Unityでリップシンクを導入する方法【uLipSync】
+https://note.com/ryuryu_game/n/n5f6d2b7b8a01
+
+【Unity, web】
+【Unity初心者入門】WebGLビルドの方法を解説！
+https://xrcloud.jp/blog/articles/business/12450/
+
+【Unity, powerpoint】
+【Unity】PowerPointファイル表示＋音声合成でスライドの動画作成を自動化
+https://qiita.com/Asalato/items/01321b3a45f0cbbc0ac3
+
+
+
+
+
+
+--------------------------------------------------------------
+cookiecutter https://github.com/microsoft/BotBuilder-Samples/releases/download/Templates/echo.zip
+
+https://github.com/microsoft/BotBuilder-Samples/releases/
+
+
+
+Aiohttpで作るSimple Web Server
+https://qiita.com/sand/items/971c851598ff59c1c905
+
+
+
+下記で、モデル指定するサンプルコードはどれでしょうか？
+
+https://github.com/microsoft/BotBuilder-Samples/tree/main
+
+Bot FrameworkのPython SDKで、LLMのモデルはどうやって指定するのでしょうか？
+
+
+
+Bot Framework　Python　Azure OpenAI
+
+
+--------------------------------------------------------------
+
+
+# 接続情報
+endpoint = 'https://aoai-testuchida.openai.azure.com/'
+apiKey = ''
+deploymentName = 'gpt4o'
+
+
+vscode
+
+拡張機能：azure app service インストール
+
+
+
+--------------------------------------------------------------
+プロジェクトIn後
+
+●→複雑なインターフェイスが必要になるかも
+　
+　		◆？◆資産管理ソフトウェアは何か使われているか？
+　			IBM Maximo
+		→使ってない
+　
+　・Kintone API
+　・power platform
+
+●データは、sharepointに貯めている
+
+
+〇Gitサンプルソースの概要把握
+
+
+
+
+¥1,877,160.17
+
+
+
+--------------------------------------------------------------
+
+未★8/28
+--------------------------------------------------------------
+●配属予定プロジェクトの準備
+〇〇Flaskと使ったサンプルチャットシステムの作成
+・一通り完成
+・ChatGPTの連続会話
+・キャッシュを利用したチャット履歴保存機能追加
+・左側メニューに上記表示
+・上記１つ１つに削除ボタン表示
+・レイアウト調整
+・選択されたメニューを、メイン画面に表示
+etc
+
+基本的に、flask側には手を入れないで、javascript側で実装
+
+
+
+
+
+未★8/30
+--------------------------------------------------------------
+●AZ104　資格更新
+・テスト受験　難しい・・・
+・続けざまに２回受けたが・・・・
+・きちんとした対策が必要
+
+●配属予定プロジェクトの準備
+〇Azureの料金
+・サブスクリプションが器
+・思わぬ高額で、良く分からないときは、サブスクリプション毎削除することを考える
+・毎日チェックする
+・開発時は、開発用サブスクリプションを作成し、そちらにリソースを作成していく。
+
+
+未★8/29
+--------------------------------------------------------------
+●配属予定プロジェクトの準備
+★AI博覧会 Summer 2024	参加	終日
+●【Aホール 2024/08/29 14:40〜】
+企業向け生成AIの次なる一手：データ活用はRAGから「エージェント」へ
+●他ブースなど
+
+＊9/2からの顧客が参加される、ということで。
+＊営業、CPの方の了承取得済
+
+--------------------------------------------------------------
+
+未★8/28
+--------------------------------------------------------------
+●配属予定プロジェクトの準備
+〇〇Flaskと使ったサンプルチャットシステムの作成
+・既存機能は、移植し終わり
+〇(追加で)
+・全体的にスリムに
+・余計なスペースを削除
+・横幅は出来るだけ、flexlbleで。固定でもたない
+・フッターは位置固定
+・フッターの中に、ユーザ入力テキストを作成
+・左側のメニュークリックで、サブシステム名をヘッダーに
+・アイコンクリック→遷移のモデルを、１つ作成。
+・実行ボタン押下後に、２行目にフォーカス移動するのを修正
+
+(今後)
+・キャッシュ保存、削除
+
+【memo】
+★実行ボタン押下後、改行されてしまい
+フォーカスが２行目に移動してしまう
+→
+★event.preventDefault();  // デフォルトの改行動作を防ぐ
+
+
+★8/27
+--------------------------------------------------------------
+●配属予定プロジェクトの準備
+〇〇Flaskと使ったサンプルチャットシステムの作成
+・bootstrapで、静的html、テンプレートhtmlを一から作る
+→
+明日は、既存動作しているjavascriptに対応させる
+その手前までは、本日、完了。
+
+【memo】
+★vscodeで commandに変えるのを忘れない
+
+★静的htmlを、templateで使うときは、app.pyに下記呼び出し
+if __name__ == '__main__':
+    app.run(debug=True)
+
+★png読むときに、(関係ない)テキスト文字を編集
+したら表示された・・
+
+【超入門】初心者向け Bootstrapの基本的な使い方
+https://tech-blog.rakus.co.jp/entry/20210226/bootstrap#Bootstrap%E3%81%AE%E3%82%BB%E3%83%83%E3%83%88%E3%82%A2%E3%83%83%E3%83%97
+
+
+
+★8/26
+--------------------------------------------------------------
+●配属予定プロジェクトの準備
+〇〇Flaskと使ったサンプルチャットシステムの作成
+〇共通テンプレートhtml対応
+→
+エラー
+・answerフィールド削除してしまっていた
+→
+済
+〇ChatGPT連続会話
+★★
+こちらのURLからOpenAIのダッシュボードにアクセスします:
+https://platform.openai.com/account/api-keys
+https://platform.openai.com/account/billing
+★★
+→個人的環境により断念
+
+〇Azure Open AI連続会話
+→済
+〇一部リファクタリング 実施
+
+【memo】
+★リファクタリング(ファイル名変更)した際、オート機能が働いたが、エラーになる。
+★(正)from apptools.menuhandler import LLMRequestor
+★(謝)from apps.apptools.menuhandler import LLMRequestor
+
+★キーの取得
+Azure OpenAI Studio		コードの表示
+
+Azure OpenAI Studioの始め方★料金など★
+https://www.ai-souken.com/article/azure-openai-studio-explanation#azure-openai-studio%E3%81%AE%E6%96%99%E9%87%91%E4%BD%93%E7%B3%BB
+
+
+
+★8/23
+--------------------------------------------------------------
+●配属予定プロジェクトの準備
+〇〇Flaskと使ったサンプルチャットシステムの作成
+・柄を作成(APIを呼ぶ手前まで)
+
+★ModuleNotFoundError
+→
+★実行前に★チェックがはしる
+・循環参照エラー？
+・コンパイルエラー？
+
+上記をクリアにした場合、正常に.envも読み込めてる
+
+★ModuleNotFoundError
+同一フォルダ内のimportでも、
+できるだけ絶対インポートを使用するのが推奨されています。たとえば、以下のようにパスをフルで指定します。
+
+from apptools.environmenthandler import EnvironmentHandler
+→
+OK
+
+from environmenthandler import EnvironmentHandler
+→
+エラー
+
+【memo】
+・参照してないimport文は削る
+
+
+★8/22
+--------------------------------------------------------------
+●配属予定プロジェクトの準備
+
+〇〇Linux版で、Azure botを動かす
+→
+済
+＊WebChatでテストまで
+
+★port設定は下記にする
+・port = int(os.environ.get("PORT", CONFIG.PORT))
+
+〇〇teamsとの連携
+・アプリ版のみ(ブラウザ版は連携無理)
+・チャット欄がロック
+「このボットにメッセージを送信することは出来ません」
+→
+管理者によって管理されているっぽい
+ここまで
+
+無料で手早く作る：Teams で動く FAQ bot 開発 [後編] (2021 年 12 月版)
+https://zenn.dev/chomado/articles/7c67cdaed48b7f
+新しいTeamsにしたらチャットボットにメッセージをを送信できない
+https://answers.microsoft.com/ja-jp/msteams/forum/all/%E6%96%B0%E3%81%97%E3%81%84teams%E3%81%AB%E3%81%97/b33e9afe-d7be-45ff-bfad-a6d5b69b024c
+
+【memo】
+・配布するにはマニフェスト作ったり、結構手間。
+
+
+
+★8/21
+--------------------------------------------------------------
+●配属予定プロジェクトの準備
+〇〇デプロイ-aiohttp port番号の設定をとる
+・とるとエラー
+・(再び)つけてもエラー
+？？？？
+・セルフ診断などをしてから接続確認するとＯＫ
+→
+★今後テスト
+
+★★★★★★★★★★★★★★★
+デプロイがどうにもこうにも出来なくて
+手動デプロイなど試したが、
+
+requirements.txtから、「asyncio」を削除した成功！！！！
+・asyncioは標準ライブラリとしてPythonに組み込まれているため、
+・標準ライブラリの一部をインストールしようとすると、依存関係や環境の競合が発生し、
+・アプリケーションが正しく動作しないことがあります。
+
+下記でOK
+aiohttp
+botbuilder-core
+botbuilder-integration-aiohttp>=4.14.0
+Flask
+
+★ChatGPT的には、Flaskは、ない方がいい的なコメントもあったが、動作した。
+★確か、アプリでは「cookiecutter==1.7.0」は使ってない→一応動作
+★★★★★★★★★★★★★★★
+
+ローカルでは、もちろん動作していたのだが、
+AppServiceは、Oryxと呼ばれるAppServiceのビルドシステムをつかっているので、
+その影響と思われる。
+
+Oryxと呼ばれるAppServiceのビルドシステムについて
+https://zenn.dev/headwaters/articles/bbce471d57378e
+
+【memo】
+App service デプロイして反映するのに５分ぐらい？
+無料版だから？
+→
+時間一杯みたいなので、結局有料版に。Linuxなので？そんな高くない。
+
+
+
+★8/20
+--------------------------------------------------------------
+●配属予定プロジェクトの準備
+〇〇〇Pythonデプロイ(続き)
+●②VsCode左側メニューでログイン
+①左側メニューでログイン
+②コマンドパレットを開き、「Azure App Service: Depoy to Web App...」を選択します。
+→
+OK
+
+●③Azure Bot 公式サンプル　＊aiohttp使用
+→
+動かない
+
+④aiohttp　HelloWorld
+Aiohttpで作るSimple Web Server
+https://qiita.com/sand/items/971c851598ff59c1c905
+→
+・app.py
+port = int(os.environ.get('PORT', 8080))
+・設定ー構成-スタートアップ コマンド
+python app.py
+★・portal画面では、port指定せず。
+
+【memo】
+・インポート "flask" を解決できませんでしたPylancereport(MissingImports)
+・pythonのインストールしなおし
+★pipのverUpをしてからおかしくなった？
+★(後日)venv環境にインストールされているか確認
+
+
+★8/19
+--------------------------------------------------------------
+●配属予定先顧客と打合せ(及び、準備)
+11:00～　レノバ様
+
+●(上記より)
+・AI博覧会 Summer 2024　に行くことに。
+・上記、及び、セミナー申し込み。
+
+●AKKODiS Japan Townhall 2024年8月度
+
+●配属予定プロジェクトの準備
+〇〇〇Pythonデプロイ
+〇先ず、Flask シンプルなもので。
+超簡単PythonでAzure App Service入門（Hello World）
+https://note.com/10mohi6/n/n0a48c346b2ff
+●①Azure CLI(未完)
+×az login
+★〇az login --tenant 2cdebcc0-0e4e-4a0c-9963-cd3e44223337
+az account show
+
+★〇az webapp up --name Linaweb111 --resource-group ASsingle111_group
+×az webapp up --name Linaweb111
+
+〇az webapp list --resource-group ASsingle111_group --query "[].{name:name}" --output table
+→
+デプロイはできてそうだが、動かない
+
+
+
+
+
+★8/16
+--------------------------------------------------------------
+●配属予定プロジェクトの準備
+〇C#にて、チャットボットをdeploy
+→済！
+
+〇(チャットボットでなく)しんぷりなapiシステムを、deploy
+→
+・本来なら、Visual Studioでサラッと、deploy(発行)できるのだが・・・。
+・Azureにログインできていない
+・community(Edition)2022だと、困っている人が、世界中にいる・・・。
+→Visual StudioでのDeploy諦める。
+
+→どうやら、deploy自体が出来てないんじゃないか・・・
+→(.NET CLI)dotnet publish のやり方にたどり着く。
+→上手くいかない
+→★★★(本来なら必要ないはずの)web.config作成。
+→出来た！　うーむ。
+→C#にて、チャットボットをdeploy　も１度のtryでOK。
+
+
+★8/15
+--------------------------------------------------------------
+●配属予定プロジェクトの準備
+〇C#にて、チャットボットをdeploy(途中)
+・404エラーが解消しない
+・世界的には、同じ問題にはまっている人はいるが・・・。
+・デバッグprint文を入れても、表示されない
+→あれこれ調べて、やるべきことは一通りやったように思えるが・・・。
+・deployログ自体は、成功メッセージがでているが・・・。
+
+〇明日の方針
+・(チャットボットでなく)しんぷりなweb apiシステムを、deployしてみる。
+
+--------------------------------------------------------------
+●配属予定プロジェクトの準備
+・試行錯誤する中で、
+・Python(Linux)を、deployするのは、いきなり,は無理そうなので、切り分け
+
+★項目(未実施)
+①FlaskアプリをDeploy
+・app.pyの、Ipアドレス、ポート
+・スタートアップコマンド必要？(Webサーバーとしての設定)
+②C#にて、チャットボットをdeploy
+
+①、②ともボチボチ事例がある
+
+③App serviceのファイル削除
+
+★項目(実施)
+②C#にて、チャットボットをdeploy
+→難儀
+→1～3年spanでMSがWeb画面などを変えているので、情報が錯綜。
+→(今後)やるとすれば、MSのLern
+
+③App serviceのファイル削除
+→
+・済
+・windowsの場合に使える、azureツール
+・ftpツール
+
+
+--------------------------------------------------------------
+●配属予定プロジェクトの準備
+〇生成AIを使ったチャットボット(クライアント：Emulator)
+→済
+【memo】
+・クライアントには、「turn_context.send_activity()」か「on_turn()」で、
+リスポンスデータを送信している。(ドキュメント的にもそう)
+ので、(debugしたところ)
+responseは空データ(ただし、statusはOK)を渡してる。
+〇参照先(URL)整理
+
+●次の課題
+・App serviceとAzureポットの連携
+・Azure ボットのWebチャットでテストで失敗
+→
+・deployするときの、フォルダ構成(階層)が問題かも？
+・APP_ID,APP_PASSWORDなど
+・C#でやってみる？
+
+●次の次の課題
+①オウム返しボットを、teamsにのっける
+②web(html)対応のために、response値に、データをいれてみる
+③②を、クライアントを下記として、接続してみる。
+・Emulator
+・temas
+・web(html)
+
+【memo】
+★VisualStudioで、Bot Frameworkの、C#のテンプレートはあるが、Pythonはない。
+が、下記が、そうっぽい。
+https://github.com/microsoft/BotBuilder-Samples/releases/
+
+
+--------------------------------------------------------------
+●配属予定プロジェクトの準備
+〇〇本日実施予定(目標)→結果
+・オウム返しボットのデプロイ→済
+・生成AIを使った上記→途中
+・LLMのモデル選択はどこで？
+　→AzureOpneAIの場合、先に、modelをデプロイしとく。
+
+〇〇本日実施
+〇(公式)Bot Framework SDK を使用してボットを作成する
+https://learn.microsoft.com/ja-jp/azure/bot-service/bot-service-quickstart-create-bot?view=azure-bot-service-4.0&tabs=python%2Cvs
+→
+(動作はしたものの、癖がある)
+●clientは、responce値に基づいて表示、しているわけではない。
+・class MyBot(ActivityHandler):を変更。
+・上記クラスのメソッドが直接？渡している？
+〇aiohttp　vscode debug設定
+・flaskの時と同じ？
+①MicrosoftのPythonが拡張モジュール
+・jsonファイルの設定　
+	"type": "debugpy"
+	path指定　C:\\development\\
+・すんなり行かないときは、
+Couldn't find a debug adapter descriptor for debug type 'debugpy
+(extention might have failed activated)
+→①の削除、再インストール
+
+〇生成AIを使ったチャットボット
+★pythonとjavascript(C#など)で、クライアントのインターげーすが違う
+★もちろん、OpenAIとAzureOpenAIとでも違う。
+
+〇〇他　下調べ
+〇aiohttp
+・テンプレートエンジンはありますか？
+→jinja2を組み合わせて使う
+・リダイレクト機能はありますか？
+→ある
+・認証システムを組み込めますか？
+→Basic認証　aiohttp_jwt
+
+〇Azure App Service
+・自動スケーリングできますか？
+→やってくれる。
+・Azure App Serviceに、外部的に認証システムを、アタッチできますか？
+→EntraIdなど、色々出来るが、シンプルなBasic認証は、内部的に組み込む。
+
+●明日以降
+・生成AIを使ったチャットボット(続き)
+
+・teamsに
+・aiohttpのサンプルコード
+＊場合により、Flaskにのっけかえ検討
+・Azure OpenAI Studio(チャット プレイグラウンド)
+・ Azure AI Services（特にAzure AI Document Intelligence, Azure AI Vision）
+
+
+
+--------------------------------------------------------------
+●配属予定プロジェクトの準備
+〇ハンズオンの下調べ。
+〇基本指針
+・手ごろなやってみたサイトがあるようでないので、
+・①公式サンプル
+　https://github.com/Microsoft/BotBuilder-Samples/blob/main/README.md
+・②Azure AI services
+・①＋②を組み合わせる
+・また、「Copilot」は、LLMのModel名ではない。
+・Copilotは、サービスアシスタント？名。
+　＊但し、MS用のモデルはある？
+〇①のサンプルソースについて
+・使用可能言語	.NET(C#) JavaScript	Python	Java
+・Javaは廃止予定
+・.NET(C#)　VisualStudio(の拡張機能)でテンプレートが使えるが・・・。
+　→AI関連で、 .NET(C#)のエンジニアを探すのが難しそう？
+・Pythonを検討
+　→VisualStudio(の拡張機能)でテンプレートはない。
+　→Webフレームワークに、「aiohttp」　という非同期処理できるものが採用されている。
+〇「aiohttp」
+・AppServiceにデプロイできなさそう？
+　クイックスタート: Python (Django または Flask) Web アプリを Azure App Service にデプロイする
+	https://learn.microsoft.com/ja-jp/azure/app-service/quickstart-python?tabs=flask%2Cwindows%2Cazure-cli%2Cazure-cli-deploy%2Cdeploy-instructions-azportal%2Cterminal-bash%2Cdeploy-instructions-zip-azcli
+ 　→FastAPIもコード例がある。
+・Copilotに聞いたところ、できる。また、下記サイトを紹介。
+・Running an Python App as an Azure Web App
+　https://stackoverflow.com/questions/60507967/running-an-python-app-as-an-azure-web-app
+　
+●次の作業
+(公式)Bot Framework SDK を使用してボットを作成する
+https://learn.microsoft.com/ja-jp/azure/bot-service/bot-service-quickstart-create-bot?view=azure-bot-service-4.0&tabs=python%2Cvs
+　
+〇上記実行する上で、参考サイト
+・Bot FrameworkのPython SDKを使ってAzure OpenAI Serviceを利用したBotアプリを作ってみました。
+　https://techblog.cccmkhd.co.jp/entry/2024/04/30/153200
+・Microsoft Teams Bot by Python
+　https://qiita.com/KI1208/items/206db528d2bb01ae9793
+
+【memo】
+・Azureのクイックスタートセンターは、サービス選択のフローチャート図がある。
+・Azure リソースの省略形の例
+https://learn.microsoft.com/ja-jp/azure/cloud-adoption-framework/ready/azure-best-practices/resource-abbreviations?WT.mc_id=spatial-8948-machiy#general
+・Azure OpenAI On Your Data
+
+
+--------------------------------------------------------------
+●配属予定プロジェクトの準備
+【in プロジェクト】
+〇技術調査方針
+①Azure Bot Service、teamsで作成してみる
+②①の次に、App serviceとhtml(Flask)で。
+③②の時に、App serviceがコンテナとして物足りないときは、
+　Web App for Containersの使用を検討する。
+④①～③と並行して、Ragのデータストレージを検討する。
+
+【待機中】
+〇〇調べること
+〇(Ragの)Data Storageを意識する
+・
+〇クライアント(Html)
+・Power Appsを使えるか？
+・html画面自体は作れるようだが
+
+〇〇実践
+〇Azure Bot Serviceを作ってみる
+〇Flaskを、Apps(or コンテナ)にのっけてみる
+・クイックスタート: Python (Django または Flask) Web アプリを Azure App Service にデプロイする
+
+●技術選定
+〇Azure Functions
+https://www.cloud-for-all.com/azure/blog/what-are-azure-functions
+・Functionsは短い処理やバッチ処理に適しています。
+・トリガーが色々ある
+	DB etc
+〇Azure App Service
+・App Serviceは常駐型のアプリケーションに適しており
+・WebアプリケーションやAPIのホスティングに特化しています。
+	http(s)
+〇〇Web App for Containers　とAzure App Service
+〇Azure App Service:
+・WebサイトやWeb APIを含む、Webアプリケーション用のフルマネージドホスティングが提供されます。
+・コードまたはコンテナを使用してデプロイできます。
+・Webアプリケーション用に最適化されています。
+・他のAzureサービスと統合されています。
+〇Web App for Containers:
+★Dockerコンテナを直接デプロイできるサービスです。
+★カスタムコードスタックをホストする際に便利です。
+・Docker HubやAzure Container Registryからコンテナイメージをプルして、依存関係を持つコンテナ化されたアプリを数秒で運用環境にデプロイできます。
+〇カスタムコードスタック
+・特定のプログラミング言語、フレームワーク、ライブラリ、データベース、ミドルウェアなどを組み合わせて構築されます。
+
+〇コンテナー サービス
+★https://azure.microsoft.com/ja-jp/products/category/containers
+
+
+
+
+--------------------------------------------------------------
+
+●【8・9月案件】Azure上での情報プラットフォームおよびカスタムチャットボット開発
+→決定。(予定)9/2(月)～
+〇〇生成ＡＩアプリを作る上での、開発環境(言語)調査。
+●Udemy
+・メインのセクション６→セクション１０～１４
+→セクション６の途中で気づく(思い出す)。
+→セクション１０、１１終了。
+・(新しい)TextMeshProは日本語文字化け
+→フォント設定(インストール)してやる必要ある
+→★プロジェクト毎にやる必要がある
+→新規プロジェクト作成時に必要。
+→結構時間かかる。
+→★staticフォルダの、NotoSansJP-Regular.ttfなどを選択すればいい？
+→でも 3/5ぐらいか・・・。
+→generateされたものを、コピペすればOK。
+
+●来週以降
+①Azure(配属予定プロジェクトの準備)
+・去年 Az-104を取得した時に購入したUdemy
+・MSのサイトを、以前作成した資料をもとに、参照。
+・Azure Bot Serviceを作ってみる
+②Unity(生成AIの知見を高める)
+・Udemyの続き
+③Flutter(生成AIの知見を高める)
+・週末に、本買ってくる？？？
+
+
+
+--------------------------------------------------------------
+
+●【8・9月案件】Azure上での情報プラットフォームおよびカスタムチャットボット開発
+→業打ち後、結果待ち
+●案件一覧参照
+
+〇〇生成ＡＩアプリを作る上での、開発環境(言語)調査。
+●Unityを　業務アプリに使うこと
+デメリット
+・遅い可能性がある
+・UIが貧弱
+●スマホ(PC)アプリ
+・Flutterがデフェクトスタンダードになりつつある
+・Android・iOS・Web・Windows・MacOS・Linux
+●Unityどうする？
+・UIが貧弱ということで、ここで最低限のものが作れれば、実用性あり？
+●Flutter　x Unity
+Flutter「を」Unity「へ」導入する
+https://gihyo.jp/article/2024/04/flutter-unity-01
+●Unity UI　調査
+・インストール
+→とにかく時間かかる・・・。
+・プロジェクト作成、日本語化、VS Code連携etc
+→IDEに、「Unity Hub」と「Unity」と２つあったり、色々わかりづらいので、
+　Udemyの前半分をやっていく・・・。
+★★Unity-環境設定-外部ツールに、andoroid　がない・・・
+→解決。
+●Flutter
+・Kさんも触れていたので、基礎的なことは理解する。
+・週末に、本買ってくる？？？
+
+
+
+--------------------------------------------------------------
+●【8・9月案件】Azure上での情報プラットフォームおよびカスタムチャットボット開発
+・17:30　業打ち
+●上記案件の準備(下記調査)
+・Azure Bot Service
+· Azure AI Services（Azure AI Document Intelligence, Azure AI Visionなど）を使用してPDFやスプレッドシートからデータを抽出
+· Azure Bot Serviceを使用したチャットボットの開発およびデプロイ
+· Azure Logic Appsを用いたクラウドサービスやアプリケーションとの連携フローの構築
+
+--------------------------------------------------------------
+●CP岩本さんと今後の方針の確認
+・AI関連　４案件　応募
+●【8・9月案件】Azure上での情報プラットフォームおよびカスタムチャットボット開発
+・営業の方と打合せ。
+・明日17:30　業打ち
+●上記案件の準備
+・Azure Bot Service
+・レノバ様_20240731打合せ資料.pptx　作成
+
+●llm tuning 簡単な調査
+〇fine tuning
+・azure opne ai service
+メニュー自体はある
+・chatgpt
+chatgpt3ならある
+
+〇actions *使うべきapiをllmが判断する。
+*Langchainのagent
+・azure opne ai service
+Langchainを取り込む形で？
+・chatgpt
+apiからもactionsを呼べる
+
+-----------------------
+・7/23(火)のソリューション事業本部の方とカジュアル面談結果待ち→★「NG」★
+・案件一覧参照。
+〇Udemy-Unity ゲーム開発：インディーゲームクリエイターが教える C#の基礎からゲームリリースまで【スタジオしまづ】
+・画面エフェクトなど当座はいらない項目が多くなってきたため、途中までで終了。
+〇Udemy-GPTsチャットボット開発入門－GPTsの基本操作から、Custom Actionsを活用した外部機能連携まで
+*Unity関係なし
+・GPTsチャットボットの話
+・GPTsは、ChatGPTで、myチャットボットを作る、という機能。
+・Actions 外部API
+・Google Apps Script で(自作)APIを作る
+・GCP Cloud Function で(自作)APIを作る
+↓↓↓
+①OPENAPIスキーマにのっとったAPIを作る
+②GPTsのActionsに設定(YAML、Josn)
+③AIがユーザープロンプトを判断して、APIを呼び出してくれる
+〇諸々調査
+・新し目のリップシンク　フリーらしい　APIもある？
+	Hedra
+〇方式
+a.)Unity　uLipSyncを使う
+・スマホアプリに対応してる
+・(PCのブラウザ)に表示した時に
+	・Flaskなどにのっけたときに、ルーティングに関して
+	・動作が重くないか？？？
+b.)ChatGPTのAPI + D-ID(有料)、Hedra(無料、APIあるかは要調査)
+・やがて、ChatGPTからも、リップシンク出るだろうが・・・。
+・スマホもブラウザでOK　かつ、3dなどに興味なければ、こっちだが・・・。
+
+
+
+
+
+
+
+-----------------------
+
+・7/23(火)のソリューション事業本部の方とカジュアル面談結果待ち
+・案件一覧参照。
+〇前日の整理
+・chatbotにおいて、今後、静止画(アバター)が口パクして、ユーザーとやり取りする機能が望まれる（必須になる）
+・上記機能を、リップスライムという。
+・当然、上記機能と一体となって、text→←Voiceの機能も必須だが、それは、OpenAIの(標準)ライブラリ機能において、可能そう。
+・リップスライム機能においては、通常のwebシステム(pythonベースだと)(現時点では)D-IDがよさそう。
+→ただし、実装的には、(基本的には)apiを呼ぶだけなので、これまでの経験で可能そう。
+・一方、Unityベースの、uLipSyncもかなりよさそう。
+・スマホ兼用という意味において、前職でも、Unityは時々話題になり、また、一部、機能で活用されていた。
+よって、下記を、今後の目標とする
+・Unityベースの、uLipSync実装
+〇Udemy
+上記観点から、ドットインストールなども調査したが、Udemyの下記２コースを受講することとする。
+・Unity ゲーム開発：インディーゲームクリエイターが教える C#の基礎からゲームリリースまで【スタジオしまづ】
+・★GPTsチャットボット開発入門★－GPTsの基本操作から、Custom Actionsを活用した外部機能連携まで
+→上記２コース購入。
+〇Udemy-Unity ゲーム開発：インディーゲームクリエイターが教える C#の基礎からゲームリリースまで【スタジオしまづ】
+*（途中まで）
+
+-----------------------
+
+・7/23(火)のソリューション事業本部の方とカジュアル面談結果待ち
+・案件一覧参照。
+・GCP課金が発生していたので、料金関係の画面に関して、色々、触ってみる。
+〇〇生成AIをキャッチアップ
+・Udemy　7ステップで体感するマルチモーダル生成AIハンズオン
+〇リップスライム---口パク機能
+・(Pika,sync,D-ID)
+https://www.youtube.com/watch?v=zQBgzqmM5dI
+→取り合えずD-IDがよさそう。
+〇D-ID APIあり
+リアルタイムOKそう。
+https://www.yamamanx.com/d-id-talks-api/
+〇uLipSync
+・Unity用の口パクフリー(オープン？)ライブラリ
+・かなりいけてる！
+https://zenn.dev/aielement/articles/d8db96cfaa62f6
+〇unity webglビルド
+・unityで作成したアプリを、webブラウザで動作させる。
+
+
+
+
+
+-----------------------
+
+
+
+-----------------------
+
+・7/23(火)ソリューション事業本部の方とカジュアル面談。
+・及び、その準備。
+・案件一覧参照。
+
+
+
+
+
+-----------------------
+
+・7/23(火)ソリューション事業本部の方とカジュアル面談
+・上記向け、自己紹介資料作成
+　→自己紹介資料_内田健晶20240723.pptx
+
+
+-----------------------
+
+
+・キャリアプランナー(岩本さん)と面談
+・NTTD様(豊洲)に、貸与PC返却
+・7/23(火)ソリューション事業本部の方とカジュアル面談
+・上記向け、自己紹介資料作成(途中)
+
+
+-----------------------
+
+DXを通して、生成AIなどを駆使して生産性を倍増させ、働く人々に活力を与え貢献していきたい。
+ミッション駆動型で様々な人を巻き込んで推進し成長を楽しんでいきたい。
+ 
+ 
+ 
+
+
+
+
+先ほど、ノートPC返却して自宅に戻ってきましたので、
+夕会の方は、参加させて頂けましたらと思います。
+また
+(CPさんと相談して)
+明日、明後日とお休みとすることにしました。
+
+
+
+
+
+
+先ず、現況ですが、
+・cloud runでは動作している
+・開発環境(localhost)でも動作せたい
+みたいな理解です。
+
+対応方法は、2通りあるかと思うのですが
+a.)flask run実行時の起動URL@app.py?が「http://127.0.0.1:5000」を生かす
+・hosts ファイルを利用する
+・C:\Windows\System32\drivers\etc\hosts
+・「127.0.0.1       localhost」の１行を追加。
+
+b.)app.pyのファイルの１行を、「http://localhost:5000」にする
+＊この場合、cloud run側はどうなるのだろう、というのはあり、★テストが必要★。
+＊もしかしたら動作しないのかな？
+
+パっと思いつくのはこんな感じです。
+
+＊尚、明日、明後日とお休み頂く予定なので、(私自身は)対応不能となります。
+
