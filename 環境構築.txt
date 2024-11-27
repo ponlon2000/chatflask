@@ -1,0 +1,151 @@
+
+
+-------------------------------------
+
+★httpdを使うため
+
+set MOD_WSGI_APACHE_ROOTDIR=/usr/local/apache2/bin
+
+pip install mod_wsgi	→ここでエラー
+pip install mod-wsgi-httpd
+
+-------------------------------------
+
+★venv環境の作成
+cd C:\dev8
+
+py -3.12 -m venv venv_myserver
+
+★
+C:\dev8\venv_myserver\Scripts\activate.bat
+
+pip install langchain
+pip install openai
+
+C:\dev8\venv_myserver
+.env　キー　設置
+
+C:\dev8\venv_myserver\conope フォルダ作成
+配下に*.py設置
+
+★★動作確認 
+chat_model_cache.py
+
+-------------------------------------
+pip install pymupdf
+pip install spacy
+spacy download ja_core_news_sm
+pip install tiktoken
+pip install chromadb
+
+★★動作確認 03	★割愛★ 
+★★★下記プログラムは、path指定のやり方が古いのでエラーになる
+prepare_1.py
+prepare_2.py
+query_1.py
+query_2.py
+query_3.py
+
+----------------------------------------------------
+★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★
+----------------------------------------------------
+pip install django
+
+pip install  django-bootstrap5
+pip install django-pygments-renderer
+pip install djangorestframework
+
+●django プロジェクト作成
+cd C:\dev8\venv_myserver
+
+django-admin startproject myserverpro
+
+●(django)マイグレーション
+cd C:\dev8\venv_myserver\myserverpro
+python manage.py migrate
+
+----------------------------------------------------
+★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★
+----------------------------------------------------
+●(django)アプリ作成
+cd C:\dev8\venv_myserver\myserverpro
+
+python manage.py startapp novel
+
+●settings.pyと(プロジェクト)urls.pyは手編集
+★settings.py
+from pathlib import Path
+import os
+-----------
+    'django_bootstrap5',
+    'pygments_renderer',
+
+    'rest_framework',
+
+	'novel.apps.NovelConfig',
+-----------
+        'DIRS': [BASE_DIR / 'templates'],
+----------
+LANGUAGE_CODE = 'ja'
+
+TIME_ZONE = 'Asia/Tokyo'
+----------
+STATIC_URL = 'static/'
+
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, 'myserverpro/static'),
+]
+
+★(プロジェクト)urls.py
+from django.contrib import admin
+# from django.urls import path
+from django.urls import path, include
+from rest_framework import routers
+
+# router = routers.DefaultRouter()
+# router.register('appmybase', snippet_api_views.SnippetViewSet)
+
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    path('novel/', include('novel.urls')),
+]
+
+●ソースコピー
+C:\dev8\venv_myserver\myserverpro\templates
+novel_base.html
+
+C:\dev8\venv_myserver\myserverpro
+mylangchainフォルダ
+myLibフォルダ
+
+C:\dev8\venv_myserver\myserverpro\myserverpro
+staticフォルダ
+
+★★C:\dev8\venv_myserver\myserverpro\novel
+
+addfiles フォルダ作成
+	initial.txt コピー
+
+templates フォルダ毎コピー
+
+*.py コピー
+
+
+●pip
+pip install bs4
+pip install langchain_openai
+
+
+●(アプリ)マイグレーション
+cd C:\dev8\venv_myserver\myserverpro
+
+python manage.py makemigrations
+
+python manage.py migrate
+
+
+★★お疲れ様でした。
+
+
+
+
